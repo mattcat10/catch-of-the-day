@@ -3,8 +3,9 @@ import { formatPrice } from '../helpers';
 
 class Fish extends React.Component {
   render() {
-    const { details } = this.props;
     return (
+      const { details } = this.props;
+
       <li className="menu-fish">
         <img src={details.image} alt={details.name} />
         <h3 className="fish-name">
